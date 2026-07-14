@@ -1,9 +1,8 @@
-import sys
-from common.colors import bannerblue, bannerblue2, W, Y, R, end
+from common.colors import bannerblue, bannerblue2, W, Y, end
 
 
 def banner():
-    print("""%s
+    print(f"""{bannerblue}
 #&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 &@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 &@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -36,19 +35,6 @@ def banner():
 &@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 &@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 &@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-    %s# Coded By harsha69 -%s @harsha69      
-                                           %s"""
-          %
-          (bannerblue, bannerblue2,
-           W, bannerblue2, W, bannerblue2, W, bannerblue2,
-           W, bannerblue2, W, bannerblue2, W, bannerblue2,
-           W, bannerblue2, W, bannerblue2,
-           W, bannerblue2, W, bannerblue2,
-           W, bannerblue2, W, bannerblue2,
-           W, bannerblue2, W, bannerblue2,
-           W, bannerblue2,
-           W, bannerblue2, W, bannerblue2,
-           W, bannerblue2,
-           W, bannerblue2,
-           W, Y, end
-           ))
+
+{bannerblue2}# Coded By {Y}harshaupadrasta{bannerblue2} - {W}@harsha69{end}
+""")
